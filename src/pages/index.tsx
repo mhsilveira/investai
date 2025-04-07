@@ -1,11 +1,5 @@
-import { Container, Typography } from '@mui/material';
+import HomePage from '@/pages/HomePage';
 
 export default function Home() {
-  return (
-    <Container>
-      <Typography variant="h4" gutterBottom>
-        InvestAI Dashboard
-      </Typography>
-    </Container>
-  );
+  return <HomePage />;
 }
